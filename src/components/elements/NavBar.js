@@ -37,6 +37,10 @@ function NavBar() {
                             text = "Articles"
                             href = "#articles"
                         />
+                        <MenuItem 
+                            text = "Contact"
+                            href = "#contactMe"
+                        />
                     </div>
                 </div>
             </div>

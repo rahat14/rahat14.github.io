@@ -3,6 +3,7 @@ import AboutMe from "../sections/AboutMe"
 import Skills from "../sections/Skills"
 import Experience from "../sections/Experience"
 import Articles from "../sections/Articles"
+import ContactMe from "../sections/ContactMe"
 
 function Content() {
     return(
@@ -11,6 +12,7 @@ function Content() {
             <Skills />
             <Experience />
             <Articles />
+            <ContactMe />
         </main>
     )
 }
