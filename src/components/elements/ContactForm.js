@@ -4,7 +4,13 @@ class ContactForm extends React.Component{
 
     constructor(props){
         super(props);
-        this.state = {name: '',valid: false};
+        this.state = {
+            name: '',
+            email: '',
+            dogBreed: '',
+            subject: '',
+            message: ''
+        };
 
         this.handleChange = this.handleChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
@@ -14,35 +20,23 @@ class ContactForm extends React.Component{
     handleChange(event){        
         const name = event.target.name;
         const value = event.target.value;
-        let validation = this.validateField(name, value)
-
-        this.setState({
-            [name]: value,
-            valid: validation
-        });
+        this.setState({[name]: value});
     }
 
     validateField(fieldName, value){
-        let validation = this.state.valid;
-
+        let nameValid = this.state.nameValid;
+        let emailValid = this.state.emailValid;
+        
         switch(fieldName) {
             case 'name':
-                let nameValid = value.length > 10
-                validation = !nameValid ? false : validation;
-                console.log("Name is valid? " + validation)
+                nameValid = value.length > 0
                 break;
             case 'email':
-                let emailValid = value.match(/^([\w.%+-]+)@([\w-]+\.)+([\w]{2,})$/i);
-                validation = emailValid ? validation : false;
-                console.log("Email is valid? " + validation)
+                emailValid = value.match(/^([\w.%+-]+)@([\w-]+\.)+([\w]{2,})$/i);
                 break;
             default:
                 break;
         }
-
-        this.setState({
-            valid: validation
-        });
     }
 
     handleSubmit(event){
@@ -96,7 +90,7 @@ class ContactForm extends React.Component{
                 </div>
                 <div className="field">
                     <div className="control has-icon-left">
-                    <button className="button is-success" disabled={!this.state.valid}>
+                    <button className="button is-success" disabled={!this.state.formValid}>
                         <span className="icon is-small">
                         <i className="fas fa-paper-plane"></i>
                         </span>
