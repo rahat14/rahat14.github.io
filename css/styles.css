@@ -38,16 +38,49 @@ html {
    color: #ffffff;
 }
 .cardimage{
-height: 320px;
-width: 320px;
+height: 300px;
+width: 300px;
 }
 .card{
 margin: auto;
 margin-top: 15px;
 
-height: 520px;
-width: 320px;
+
+height: 480px;
+width: 300px;
 }
+.card:hover{
+
+    box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.253) !important;
+
+}
+
+.card-body{
+
+ padding: 3rem 0 !important;
+
+}
+
+.card-text{
+
+font-size: 0.9rem;
+padding: 0.4rem;
+
+}
+
+.overflow{
+    overflow: hidden;
+}
+.card-image-top{
+    transform: scale(1);
+    transition: transform 0.5s ease;
+
+}
+.card-image-top:hover{
+    transform: scale(1.8);
+}
+
+
 .card-header-title{
         color: #3273DC;
         text-decoration: solid;
