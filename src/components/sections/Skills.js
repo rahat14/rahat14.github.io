@@ -11,9 +11,9 @@ function Skills() {
                     <div className="column is-6">
                         <div className="has-text-centered">
                             <span className="icon has-text-link">
-                                <i className="fas fa-3x fa-cogs"></i>
+                                <i className="fab fa-3x fa-android"></i>
                             </span>
-                            <h2 className="title is-5">DevOps</h2>
+                            <h2 className="title is-5">Android</h2>
                         </div>
                         <SkillsList skills = {
                             Resume.skills.filter(skill => skill.keywords.includes('DevOps')).reduce((obj,item) => ((obj[item.name] = item.level, obj)),{})

@@ -9,7 +9,7 @@ html {
     margin: 30px 0 0 0;
 }
 .has-bg-image {
-    background-image: url('../images/cover10.JPG');
+    background-image: url('../images/coverShovo.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -30,4 +30,28 @@ html {
 
 .skill-percentage {
 	float: right;
+}
+.nav .nav-toggle span {
+    background-color: #ffffff;
+}
+.navbar-burger {
+   color: #ffffff;
+}
+.cardimage{
+height: 320px;
+width: 320px;
+}
+.card{
+margin: auto;
+margin-top: 15px;
+
+height: 520px;
+width: 320px;
+}
+.card-header-title{
+        color: #3273DC;
+        text-decoration: solid;
+
+
+
 }

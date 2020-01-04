@@ -17,13 +17,13 @@ class NavBar extends React.Component {
 
     render(){
         return(
-            <nav className="navbar is-transparent">
+            <nav className="navbar is-transparent" >
                 <div className="container">
                     <div className="navbar-brand">
                         <a href="/" className="navbar-item title is-unselectable my-name">
                             {Resume.basics.name}
                         </a>
-                        <span className="navbar-burger burger" onClick={this.handleMenuClick}>
+                        <span className="navbar-burger burger"  onClick={this.handleMenuClick}>
                             <span></span>
                             <span></span>
                             <span></span>
@@ -36,6 +36,7 @@ class NavBar extends React.Component {
                                 href = "#aboutMe"
                             />
                             <MenuItem
+                        
                                 text = "Skills"
                                 href = "#skills"
                             />
@@ -44,8 +45,9 @@ class NavBar extends React.Component {
                                 href = "#experience"
                             />
                             <MenuItem
-                                text = "Articles"
+                                text = "Projects"
                                 href = "#articles"
+                            
                             />
                         </div>
                     </div>

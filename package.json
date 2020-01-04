@@ -1,8 +1,11 @@
 {
-  "name": "jcoelho-github",
+  "name": "rahat14-github",
   "version": "0.1.0",
+  "homepage": "https://rahat14.github.io",
   "private": true,
   "dependencies": {
+    "bootstrap": "^4.4.1",
+    "bootstrap-3-card": "^0.2.0",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-scripts": "^2.1.8"
