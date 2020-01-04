@@ -7,9 +7,7 @@ function Footer() {
                 <p>
                     Built at <i className="fas fa-moon"></i> by <strong className="has-text-white">Rahat Shovo</strong>
                 </p>
-                <p>
-                    <img width="512" height="96" src="https://bulma.io/images/made-with-bulma--semiwhite.png" className="bulma-image" alt="" />
-                </p>
+            
             </div>
         </footer>
     )
