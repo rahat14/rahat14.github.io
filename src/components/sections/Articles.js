@@ -74,10 +74,13 @@ class Projects extends Component{
                                 </a>
 
                         </div>
-                        <div className="card-image">
-                            <figure className="cardimage" >
-                                    <img src="../images/hb.jpg" alt="" />
 
+                        <div className="card-image">
+
+                            <figure className="cardimage" >
+                                <div className = "overflow" > 
+                                    <img src="../images/hb.jpg" alt="" />
+                                    </div>
                             </figure>
                         </div>
                         <div className="card-content">

@@ -5,32 +5,82 @@ import Resume from "../../resume.json"
 function Skills() {
     return(
         <section className="section" id="skills">
-            <div className="container">
-                <h1 className="title">Skills</h1>
-                <div className="columns">
-                    <div className="column is-6">
-                        <div className="has-text-centered">
-                            <span className="icon has-text-link">
-                                <i className="fab fa-3x fa-android"></i>
-                            </span>
-                            <h2 className="title is-5">Android</h2>
-                        </div>
-                        <SkillsList skills = {
-                            Resume.skills.filter(skill => skill.keywords.includes('DevOps')).reduce((obj,item) => ((obj[item.name] = item.level, obj)),{})
-                        } />
-                    </div>
-                    <div className="column is-6">
-                        <div className="has-text-centered">
-                            <span className="icon has-text-link">
-                                <i className="fas fa-3x fa-laptop-code"></i>
-                            </span>
-                            <h2 className="title is-5">Software Development</h2>
-                        </div>
-                        <SkillsList skills = {
-                            Resume.skills.filter(skill => skill.keywords.includes('Software Developer')).reduce((obj,item) => ((obj[item.name] = item.level, obj)),{})
-                        } />
-                    </div>
+            <div className="containerForSkill">
+                <h1 className="titleskill" >TECHNICAL SKILLS
+                <span class="underline"></span>
+                </h1>
+                <div className="skillContainer">
+                
+                <div className="skillTextSection">
+
+                    <h2 className="skillText">I've worked with a wide variety of programming languages. For web applications I use PHP and Javascript. Whenever I need the most performance possible I obviously go with C++ and finally when I am building prototypes or working on my hobby projects I fall back on Python</h2>
                 </div>
+            </div>
+
+                <div className="skillContainer" id = "hozdiv">
+
+                        <h1 id="lang">Java </h1>
+                        <h1 id="lang">Kotlin </h1>
+                        <h1 id="lang">Javascript </h1>
+                        <h1 id="lang">Node.js</h1>
+                        <h1 id="lang">Python</h1>
+                       
+                
+                    </div>
+
+                <div className="skillContainer"> 
+                
+                    <h3 className="skillText" id="bigtext">MOST FREQUENTLY USED TOOLS</h3>
+
+                </div> 
+
+                <div className="skillContainer" id ="containerSkill">
+
+                   
+
+                     
+                <div className="frameworks" id = "tools">
+                        <h1  id="langT" >FRAMEWORKS</h1>
+
+                            <ul >
+                                <li>Andorid Studio</li>
+                                <li>Node.js</li>
+                                <li>Xcode</li>
+                                <li>React</li>
+                                <li>Vue.js</li>
+                                
+                        </ul>
+
+
+                </div>
+                    <div className="frameworks" id="tools">
+                            <h1 id="langT" >SOFTWARE</h1>
+
+                        <ul >
+                            <li>Windows & Linux</li>
+                            <li>Git</li>
+                            <li>MySQL</li>
+                            <li>Postgres & Firebase</li>
+
+                            <li>Heruku</li>
+                        </ul>
+
+
+                    </div>
+
+
+
+
+
+
+
+
+                </div>   
+
+               
+
+
+               
             </div>
         </section>
     )
