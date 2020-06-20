@@ -38,22 +38,29 @@ html {
    color: #ffffff;
 }
 .cardimage{
-height: 300px;
-width: 300px;
+height: 160px;
+width: 250px;
 }
 .card{
-margin: auto;
+margin: 15px;
 margin-top: 15px;
 
 
-height: 480px;
-width: 300px;
+height: 435px;
+width: 250px;
+}
+
+#stack {
+
+    margin-top: 75px;
+
 }
 .card:hover{
 
     box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.253) !important;
 
 }
+
 
 .card-body{
 
