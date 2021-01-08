@@ -33,11 +33,20 @@
   },
   "work": [
     {
+      "company": "Spinner Tech",
+      "position": "Lead Android Devloper",
+      "website": "https://spinnertech.dev/",
+      "startDate": "2020-8-5",
+      "endDate": "",
+      "summary": "Joined and built many android aplications such related to Ecommerce and HRM System.",
+      "highlights": []
+    },
+    {
       "company": "Metacoders",
       "position": "Lead Android Devloper",
       "website": "https://www.metacoderbd.com",
-      "startDate": "2017-10-15",
-      "endDate": "",
+      "startDate": "2018-1-1",
+      "endDate": "2020-7-11",
       "summary": "Joined and built many android aplications such related to food delivery and safety.",
       "highlights": []
     }

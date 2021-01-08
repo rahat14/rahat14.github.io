@@ -60,6 +60,78 @@ class Projects extends Component{
                     <h1 className="title">Projects</h1>
                     <h2 className="subtitle is-4">My latest Projects...</h2>
                     <div className="columns">
+                        
+                    <div className="card">
+                            <div className="card-header">
+                                <a href="https://play.google.com/store/apps/details?id=dev.mobile.afiqsouq" target="blank"><p className="card-header-title">Afiq Souq</p></a>
+                                <a href="https://play.google.com/store/apps/details?id=dev.mobile.afiqsouq" target="blank" className="card-header-icon" aria-label="Play Store">
+                                    <span className="icon">
+                                        <i className="fab fa-2x fa-google-play"></i>
+                                    </span>
+                                </a>
+                            </div>
+                            <div className="card-image">
+                                <figure className="cardimage">
+                                    <img src="https://play-lh.googleusercontent.com/IhjDtNrsJsFVS8fqnuTkmfBjhoBoyDo3tmSBYddUTstl9wo6-3bRYBMuyg9j9map5lAo=s300-rw" alt="" />
+                                </figure>
+                            </div>
+                            <div className="card-content">
+                                <h1 className="heading" id="stack">Java,RestApi,OneSignal</h1>
+                                <div className="content">
+                                    <p>An Ecommerce Platform. </p>
+                                </div>
+                                <a href="https://play.google.com/store/apps/details?id=dev.mobile.afiqsouq" target="blank">Check This Project</a>
+                            </div>
+                        </div>
+
+
+                    <div className="card">
+                            <div className="card-header">
+                                <a href="https://play.google.com/store/apps/details?id=com.metacoders.cakri" target="blank"><p className="card-header-title">Ksb Net</p></a>
+                                <a href="https://play.google.com/store/apps/details?id=com.metacoders.cakri" target="blank" className="card-header-icon" aria-label="Play Store">
+                                    <span className="icon">
+                                        <i className="fab fa-2x fa-google-play"></i>
+                                    </span>
+                                </a>
+                            </div>
+                            <div className="card-image">
+                                <figure className="cardimage">
+                                    <img src="https://play-lh.googleusercontent.com/Hx8cDCKo5uy588oHGFfRBRYNUXut1qQHgZqCMuKP1bXSzZv044LCzyqLb7rUJLj-ZGY=s250-rw" alt="" />
+                                </figure>
+                            </div>
+                            <div className="card-content">
+                                <h1 className="heading" id="stack">Java,Lumen</h1>
+                                <div className="content">
+                                    <p>Education And Govt. Job Seeker Platform. </p>
+                                </div>
+                                <a href="https://play.google.com/store/apps/details?id=com.metacoders.cakri" target="blank">Check This Project</a>
+                            </div>
+                        </div>
+
+
+                        <div className="card">
+                            <div className="card-header">
+                                <a href="https://play.google.com/store/apps/details?id=com.metacodersbd.parcello" target="blank"><p className="card-header-title">Ksb Net</p></a>
+                                <a href="https://play.google.com/store/apps/details?id=com.metacodersbd.parcello" target="blank" className="card-header-icon" aria-label="Play Store">
+                                    <span className="icon">
+                                        <i className="fab fa-2x fa-google-play"></i>
+                                    </span>
+                                </a>
+                            </div>
+                            <div className="card-image">
+                                <figure className="cardimage">
+                                    <img src="https://play-lh.googleusercontent.com/Ws2tfFur2El3TO-2W6aAFSNpa2pY1cUfT2LS7GEhw9UmWA5feFQUY7le24EgPyaZR6I=s250-rw" alt="" />
+                                </figure>
+                            </div>
+                            <div className="card-content">
+                                <h1 className="heading" id="stack">Java,Firbase</h1>
+                                <div className="content">
+                                    <p>Food And Grocery Delivery App.</p>
+                                </div>
+                                <a href="https://play.google.com/store/apps/details?id=com.metacodersbd.parcello" target="blank">Check This Project</a>
+                            </div>
+                        </div>
+
 
 
                         <div className="card">
@@ -111,7 +183,17 @@ class Projects extends Component{
                         </div>
 
 
-                        <div className="card"  >
+                     
+
+                     
+
+                     
+                    </div>
+
+                    <div className="columns">
+
+
+                    <div className="card"  >
                             <div className="card-header">
                             <a href="https://play.google.com/store/apps/details?id=com.metacodersbd.hungrybirds" target="blank"><p className="card-header-title">Hungry Birds</p>
                                     
@@ -143,7 +225,8 @@ class Projects extends Component{
                     </div>
 
 
-                        <div className="card">
+
+                    <div className="card">
                             <div className="card-header">
                                 <a href="https://play.google.com/store/apps/details?id=com.ksbnet.official" target="blank"><p className="card-header-title">Ksb Net</p></a>
                                 <a href="https://play.google.com/store/apps/details?id=com.ksbnet.official" target="blank" className="card-header-icon" aria-label="Play Store">
@@ -165,15 +248,6 @@ class Projects extends Component{
                                 <a href="https://play.google.com/store/apps/details?id=com.ksbnet.official" target="blank">Check This Project</a>
                             </div>
                         </div>
-
-
-                     
-                    </div>
-
-                    <div className="columns">
-
-
-                
                       
 
 
