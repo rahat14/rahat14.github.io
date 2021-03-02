@@ -87,7 +87,7 @@ class Projects extends Component{
 
                     <div className="card">
                             <div className="card-header">
-                                <a href="https://play.google.com/store/apps/details?id=com.metacoders.cakri" target="blank"><p className="card-header-title">Ksb Net</p></a>
+                                <a href="https://play.google.com/store/apps/details?id=com.metacoders.cakri" target="blank"><p className="card-header-title">Chakri</p></a>
                                 <a href="https://play.google.com/store/apps/details?id=com.metacoders.cakri" target="blank" className="card-header-icon" aria-label="Play Store">
                                     <span className="icon">
                                         <i className="fab fa-2x fa-google-play"></i>
@@ -111,7 +111,7 @@ class Projects extends Component{
 
                         <div className="card">
                             <div className="card-header">
-                                <a href="https://play.google.com/store/apps/details?id=com.metacodersbd.parcello" target="blank"><p className="card-header-title">Ksb Net</p></a>
+                                <a href="https://play.google.com/store/apps/details?id=com.metacodersbd.parcello" target="blank"><p className="card-header-title">Parcelon</p></a>
                                 <a href="https://play.google.com/store/apps/details?id=com.metacodersbd.parcello" target="blank" className="card-header-icon" aria-label="Play Store">
                                     <span className="icon">
                                         <i className="fab fa-2x fa-google-play"></i>
