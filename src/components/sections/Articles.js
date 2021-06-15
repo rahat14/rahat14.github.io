@@ -60,6 +60,56 @@ class Projects extends Component{
                     <h1 className="title">Projects</h1>
                     <h2 className="subtitle is-4">My latest Projects...</h2>
                     <div className="columns">
+
+                    <div className="card">
+                            <div className="card-header">
+                                <a href="https://play.google.com/store/apps/details?id=com.syntex_error.foodpin" target="blank"><p className="card-header-title">Foodpin</p></a>
+                                <a href="https://play.google.com/store/apps/details?id=com.syntex_error.foodpin" target="blank" className="card-header-icon" aria-label="Play Store">
+                                    <span className="icon">
+                                        <i className="fab fa-2x fa-google-play"></i>
+                                    </span>
+                                </a>
+                            </div>
+                            <div className="card-image">
+                                <figure className="cardimage">
+                                    <img src="https://play-lh.googleusercontent.com/4_tkmn8RPWInLHL6QxEgeLvsysB2wjCJOsax8EJ86s2vGPB3XldZ1D0hZIMnE95XbKY=s300-rw" alt="" />
+                                </figure>
+                            </div>
+                            <div className="card-content">
+                                <h1 className="heading" id="stack">Kotlin,Lumen,Navigation</h1>
+                                <div className="content">
+                                    <p>Food Reviews , Offers, Social Media</p>
+                                </div>
+                                <a href="https://play.google.com/store/apps/details?id=com.syntex_error.foodpin" target="blank">Check This Project</a>
+                            </div>
+                        </div>
+
+
+
+                        <div className="card">
+                            <div className="card-header">
+                                <a href="https://apps.apple.com/us/app/afiqsouq/id1565658028" target="blank"><p className="card-header-title">Afiq Souq IOS </p></a>
+                                <a href="https://apps.apple.com/us/app/afiqsouq/id1565658028" target="blank" className="card-header-icon" aria-label="Play Store">
+                                    <span className="icon">
+                                        <i className="fab fa-2x fa-app-store-ios"></i>
+                                    </span>
+                                </a>
+                            </div>
+                            <div className="card-image">
+                                <figure className="cardimage">
+                                    <img src="https://play-lh.googleusercontent.com/IhjDtNrsJsFVS8fqnuTkmfBjhoBoyDo3tmSBYddUTstl9wo6-3bRYBMuyg9j9map5lAo=s300-rw" alt="" />
+                                </figure>
+                            </div>
+                            <div className="card-content">
+                                <h1 className="heading" id="stack">SwiftUI,RestApi,OneSignal</h1>
+                                <div className="content">
+                                    <p>An Ecommerce Platform For Native IOS User. </p>
+                                </div>
+                                <a href="https://apps.apple.com/us/app/afiqsouq/id1565658028" target="blank">Check This Project</a>
+                            </div>
+                        </div>
+
+
                         
                     <div className="card">
                             <div className="card-header">
@@ -134,7 +184,15 @@ class Projects extends Component{
 
 
 
-                        <div className="card">
+                       
+                      
+                      
+
+                     
+                    </div>
+
+                    <div className="columns">
+                    <div className="card">
                             <div className="card-header">
                                 <a href="https://play.google.com/store/apps/details?id=com.syntex.stories" target="blank"><p className="card-header-title">Vinci</p></a>
                                 <a href="https://play.google.com/store/apps/details?id=com.syntex.stories" target="blank" className="card-header-icon" aria-label="Play Store">
@@ -158,8 +216,8 @@ class Projects extends Component{
                         </div>
 
 
-                      
-                        <div className="card">
+
+                    <div className="card">
                             <div className="card-header">
                                 <a href="https://play.google.com/store/apps/details?id=com.metacodersbd.safeguard" target="blank"><p className="card-header-title">BakSoinik</p></a>
                                 <a href="https://play.google.com/store/apps/details?id=com.metacodersbd.safeguard" target="blank" className="card-header-icon" aria-label="Play Store">
@@ -181,17 +239,6 @@ class Projects extends Component{
                                 <a href="https://play.google.com/store/apps/details?id=com.metacodersbd.safeguard" target="blank">Check This Project</a>
                             </div>
                         </div>
-
-
-                     
-
-                     
-
-                     
-                    </div>
-
-                    <div className="columns">
-
 
                     <div className="card"  >
                             <div className="card-header">
@@ -251,7 +298,7 @@ class Projects extends Component{
                       
 
 
-                        <div className="card">
+                    <div className="card">
                             <div className="card-header">
                                 <a href="https://play.google.com/store/apps/details?id=com.metacoders.home" target="blank"><p className="card-header-title">Job Solution</p></a>
                                 <a href="https://play.google.com/store/apps/details?id=com.metacoders.home" target="blank" className="card-header-icon" aria-label="Play Store">
@@ -278,7 +325,13 @@ class Projects extends Component{
 
 
 
-                        <div className="card" >
+                  
+                    </div>
+
+
+                    <div className="columns">
+
+                    <div className="card" >
                             <div className="card-header" >
                                 <a href="https://play.google.com/store/apps/details?id=org.sheba24.beauty.islam.prayer.time.quran.hadith" target="blank"><p className="card-header-title">Beauty Of Islam</p></a>
                                 <a href="https://play.google.com/store/apps/details?id=org.sheba24.beauty.islam.prayer.time.quran.hadith" target="blank" className="card-header-icon" aria-label="Play Store">
@@ -303,6 +356,8 @@ class Projects extends Component{
 
 
                     </div>
+
+                    
 
                     
                 </div>

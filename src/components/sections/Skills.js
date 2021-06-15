@@ -21,7 +21,7 @@ function Skills() {
 
                         <h1 id="lang">Java </h1>
                         <h1 id="lang">Kotlin </h1>
-                        <h1 id="lang">Javascript </h1>
+                        <h1 id="lang">Swift</h1>
                         <h1 id="lang">Node.js</h1>
                         <h1 id="lang">Flutter</h1>
                        
@@ -59,7 +59,7 @@ function Skills() {
                         <ul >
                             <li>Windows & Linux</li>
                             <li>Git</li>
-                            <li>MySQL</li>
+                            <li>SQL</li>
                             <li>Postgres & Firebase</li>
                             <li>Heruku</li>
                         </ul>

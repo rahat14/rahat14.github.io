@@ -2,13 +2,13 @@
   "basics": {
     "name": "Rahatul Aseaikin",
     "label": "Mobile App Devloper",
-    "picture": "images/shovo.png",
+    "picture": "images/s.png",
     "x_title": "Hey There! Glad you're here",
-    "summary": "Going on 3 years of experience in Mobile App Devloping. Currently I’m working as a developer exploring the Mobile world. I’m interested in Machine Learning, all sorts of automation and developing front-end and back-end applications.",
+    "summary": "Going on 3 years of experience in Mobile App Developing. Currently I’m working as a developer exploring the Mobile world. I’m interested in Machine Learning, all sorts of automation and developing front-end and back-end applications.",
     "location": {
       "country": "Bangladesh",
       "countryCode": "BD",
-      "region": "Cumilla"
+      "region": "Dhaka"
     },
     "profiles": [
       {
@@ -33,11 +33,20 @@
   },
   "work": [
     {
+      "company": "AkR Technology",
+      "position": "Software Engineer",
+      "website": "https://spinnertech.dev/",
+      "startDate": "2021-5-2",
+      "endDate": "",
+      "summary": "Helped To Develop Large Scale Applicaiton & EPOS System Also collaborating with icddr,b to bring big data solution.",
+      "highlights": []
+    },
+    {
       "company": "Spinner Tech",
-      "position": "Lead Android Devloper",
+      "position": "Lead Android Developer",
       "website": "https://spinnertech.dev/",
       "startDate": "2020-8-5",
-      "endDate": "",
+      "endDate": "2021-4-29",
       "summary": "Joined and built many android aplications such related to Ecommerce and HRM System.",
       "highlights": []
     },
