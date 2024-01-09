@@ -23,6 +23,7 @@ function Timeline() {
                                         key = {index}
                                         date = {new Date(item.startDate).toLocaleString('en-UK', {month:'long', year: 'numeric'})}
                                         company = {item.company}
+                                        position = {item.position}
                                         summary = {item.summary}
                                     />
                         }))

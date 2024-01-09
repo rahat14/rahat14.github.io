@@ -4,7 +4,7 @@
     "label": "Mobile App Devloper",
     "picture": "images/s.png",
     "x_title": "Hey There! Glad you're here",
-    "summary": "Going on 3 years of experience in Mobile App Developing. Currently I’m working as a developer exploring the Mobile world. I’m interested in Machine Learning, all sorts of automation and developing front-end and back-end applications.",
+    "summary": "Going on 4 years of experience in Mobile App Developing. Currently I’m working as a developer exploring the Mobile world. I’m interested in Machine Learning, all sorts of automation and developing front-end and back-end applications.",
     "location": {
       "country": "Bangladesh",
       "countryCode": "BD",
@@ -33,26 +33,36 @@
   },
   "work": [
     {
-      "company": "AkR Technology",
-      "position": "Software Engineer",
-      "website": "https://spinnertech.dev/",
-      "startDate": "2021-5-2",
+      "company": "Programming Hero",
+      "position": "Sr.Engineer (android)",
+      "website": "https://app.programming-hero.com/",
+      "startDate": "2022-6-5",
       "endDate": "",
-      "summary": "Helped To Develop Large Scale Applicaiton & EPOS System Also collaborating with icddr,b to bring big data solution.",
+      "summary": "Serving Million Students with new features.",
       "highlights": []
     },
     {
+      "company": "Simec System",
+      "position": "Software Engineer",
+      "website": "https://simec-inc.net/",
+      "startDate": "2021-9-1",
+      "endDate": "2022-4-2",
+      "summary": "Worked with Bangladesh Govt. And Japanese Clients on their HRM solutions.",
+      "highlights": []
+    },
+   
+    {
       "company": "Spinner Tech",
-      "position": "Lead Android Developer",
+      "position": "Android Developer",
       "website": "https://spinnertech.dev/",
       "startDate": "2020-8-5",
-      "endDate": "2021-4-29",
+      "endDate": "2021-4-30",
       "summary": "Joined and built many android aplications such related to Ecommerce and HRM System.",
       "highlights": []
     },
     {
       "company": "Metacoders",
-      "position": "Lead Android Devloper",
+      "position": "Android Devloper",
       "website": "https://www.metacoderbd.com",
       "startDate": "2018-1-1",
       "endDate": "2020-7-11",
